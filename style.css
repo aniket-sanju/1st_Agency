@@ -152,7 +152,7 @@ nav{margin-top: 2rem;}
 .blogs{margin-bottom: 6rem; position: relative;}
 .contact{background-image: url(Layer4.webp);}
 .contact .cursive{text-align: left;}
-.contact .bold{text-align: left;}
+.contact .bold{text-align: left; margin-top: 2rem;}
 .icon{font-size: 36px; margin: 0 4rem 5rem 0;}
 .wrap p{line-height: 2rem; white-space: nowrap;}
 .form{ display: flex; flex-direction: column;}
