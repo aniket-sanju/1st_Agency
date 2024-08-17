@@ -66,14 +66,14 @@ header .toggle{
 ul li:hover{color: var(--blu);}
 nav ul{gap: 25px;}
 
-header{background-image: url(Layer1.webp);}
+header{background-image: url(/image/Layer1.webp);}
 header h1{white-space: nowrap; padding-top: 1rem;}
 h1 a span{ color: var(--blu);}
 nav{margin-top: 2rem;}
 #menuList{
     transition: all 0.4s ;
 }
-.picture img{width: 100%;}
+.picture img{width: 100%; margin-top: 30px;}
 .context{margin-top: 7rem;}
 .context h2{line-height: 2.5rem;}
 .hi{font-family: var(--cur);font-size: 27px; line-height: 6rem;}
@@ -131,7 +131,7 @@ nav{margin-top: 2rem;}
 .portfolio .cursive{color: #575757;}
 .portfolio .bold{color: #000;}
 .badge{display: flex;flex-wrap: wrap;}
-.clint{background-image: url(Layer3.webp); background-repeat: no-repeat; background-size: cover;}
+.clint{background-image: url(/image/Layer3.webp); background-repeat: no-repeat; background-size: cover;}
 .compy-logo{
     width: 100%;
     height: auto; 
@@ -146,22 +146,22 @@ nav{margin-top: 2rem;}
 .post-2 h3 { font-weight: 800; font-family: var(--fm); color: #000;}
 .post-3{background: #000; margin-right: 3rem;}
 .date{color: #e3f604; font-weight: 700;padding: 1rem; text-align: center;}
-.post-4{background-image: url(blog-bg.webp); transform: translate(36rem, -54rem);position: absolute;}
+.post-4{background-image: url(/image/blog-bg.webp); transform: translate(36rem, -54rem);position: absolute;}
 .post-4 h3{padding: 1rem; margin: 9rem 0 0; font-size: 27px; font-weight: 700;}
 .post-5{background: #840e36;}
 .blogs{margin-bottom: 6rem; position: relative;}
-.contact{background-image: url(Layer4.webp);}
+.contact{background-image: url(/image/Layer4.webp);}
 .contact .cursive{text-align: left;}
 .contact .bold{text-align: left;}
-.icon{font-size: 36px; margin: 0 5rem 5rem 0;}
-.wrap p{line-height: 2rem;}
+.icon{font-size: 36px; margin: 0 4rem 5rem 0;}
+.wrap p{line-height: 2rem; white-space: nowrap;}
 .form{ display: flex; flex-direction: column;}
 .form input,textarea{
     background: #2b2b2b; 
     color: #fff; 
     border-radius: 7px;
     margin: 0 0 2rem;
-    padding: 5px;
+    padding: 10px;
 
 }
 .last-logo{
@@ -208,7 +208,6 @@ nav{margin-top: 2rem;}
     nav ul :hover{background-color: var(--blu); color: #fff;}
     .post-2,.post-3{margin-bottom: 2rem;}
     .col-p-5{flex-basis: 41.66%; max-width: 41.66%;}
-    .col-p-6{flex-basis: 50%; max-width: 50%;}
     .col-p-4{flex-basis: 33.33%; max-width: 33.33%;}
     .col-p-3{flex-basis: 25%; max-width: 25%;}
 }
@@ -218,7 +217,11 @@ nav{margin-top: 2rem;}
         top: 20%;
         left: 20%;
     }
+    .icon{margin-bottom: 2rem;}
+    .col-m-6{flex-basis: 50%; max-width: 50%;}
     .col-m-8{flex-basis: 66.66%; max-width: 66.66%;}
+    .col-m-12{flex-basis: 100%; max-width: 100%;}
+
 }
 @media only screen and (max-width: 490px) {
     .col-s-6{flex-basis: 50%; max-width: 50%;}
