@@ -66,7 +66,7 @@ header .toggle{
 ul li:hover{color: var(--blu);}
 nav ul{gap: 25px;}
 
-header{background-image: url(/image/Layer1.webp);}
+header{background-image: url(Layer1.webp);}
 header h1{white-space: nowrap; padding-top: 1rem;}
 h1 a span{ color: var(--blu);}
 nav{margin-top: 2rem;}
@@ -131,7 +131,7 @@ nav{margin-top: 2rem;}
 .portfolio .cursive{color: #575757;}
 .portfolio .bold{color: #000;}
 .badge{display: flex;flex-wrap: wrap;}
-.clint{background-image: url(/image/Layer3.webp); background-repeat: no-repeat; background-size: cover;}
+.clint{background-image: url(Layer3.webp); background-repeat: no-repeat; background-size: cover;}
 .compy-logo{
     width: 100%;
     height: auto; 
@@ -146,11 +146,11 @@ nav{margin-top: 2rem;}
 .post-2 h3 { font-weight: 800; font-family: var(--fm); color: #000;}
 .post-3{background: #000; margin-right: 3rem;}
 .date{color: #e3f604; font-weight: 700;padding: 1rem; text-align: center;}
-.post-4{background-image: url(/image/blog-bg.webp); transform: translate(36rem, -54rem);position: absolute;}
+.post-4{background-image: url(blog-bg.webp); transform: translate(36rem, -54rem);position: absolute;}
 .post-4 h3{padding: 1rem; margin: 9rem 0 0; font-size: 27px; font-weight: 700;}
 .post-5{background: #840e36;}
 .blogs{margin-bottom: 6rem; position: relative;}
-.contact{background-image: url(/image/Layer4.webp);}
+.contact{background-image: url(Layer4.webp);}
 .contact .cursive{text-align: left;}
 .contact .bold{text-align: left;}
 .icon{font-size: 36px; margin: 0 4rem 5rem 0;}
